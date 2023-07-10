@@ -55,7 +55,7 @@ fun DrawUsers(users: List<User>) {
                     contentDescription = "user",
                     modifier = Modifier
                         .clip(
-                            RoundedCornerShape(200.dp)
+                            RoundedCornerShape(50.dp)
                         )
                         .size(width = 75.dp, height = 75.dp),
                     contentScale = ContentScale.Crop,
